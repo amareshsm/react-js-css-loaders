@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "React Spinner CSS",
   "main": "index.js",
-  "scripts": {  
-    "format": "eslint **/*.js  && prettier **/*.js"
-    
+  "scripts": {
+    "format": "eslint **/*.js  && prettier **/*.js",
+    "format:fix": "eslint **/*.js --fix && prettier **/*.js --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format:fix",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -31,7 +42,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
   },
   "dependencies": {
     "prettier": "^2.0.5"
