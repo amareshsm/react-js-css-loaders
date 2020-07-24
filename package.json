@@ -2,7 +2,9 @@
   "name": "react-spinner-css",
   "version": "1.0.0",
   "description": "React Spinner CSS",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
