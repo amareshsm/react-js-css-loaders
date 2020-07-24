@@ -11,7 +11,10 @@
     "format": "eslint **/*.js  && prettier **/*.js",
     "format:fix": "eslint **/*.js --fix && prettier **/*.js --write",
     "storybook": "start-storybook -p 9001 -c storybook",
-    "storybook:build": "build-storybook  -c storybook"
+    "storybook:build": "build-storybook  -c storybook",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "husky": {
     "hooks": {
@@ -46,20 +49,25 @@
     "@rollup/plugin-babel": "^5.1.0",
     "@storybook/addon-options": "^5.3.19",
     "@storybook/react": "^5.3.19",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
     "babel-loader": "^8.1.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.22.2",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -74,5 +82,10 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/mocks/styles.js"
+    }
   }
 }

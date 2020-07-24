@@ -5,3 +5,5 @@
 *.html
 
 /storybook-static
+
+/coverage
