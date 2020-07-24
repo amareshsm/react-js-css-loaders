@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style.css'
 const Loader3 = (props) => (
   <>
-    <styles>{styles}</styles>
+    <style>{styles}</style>
     <div className="loader3">
       <div className="loader-ring">
         <div></div>
