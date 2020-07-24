@@ -1,5 +1,3 @@
-import React from 'react'
-
-const Spinner = (props) => <h1>Spinners</h1>
-
-export default Spinner
+export * from './Components/Loader1'
+export * from './Components/Loader2'
+export * from './Components/Loader3'
