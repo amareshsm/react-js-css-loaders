@@ -6,7 +6,7 @@ install:
   - npm ci
 
 script:
-  - npm run lint
+  - npm run format
   - npm run test:coveralls
 
 notifications:
