@@ -15,8 +15,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:coveralls": "jest --coverage --coverageRporters=text-lcov | coveralls",
-    "test:staged": "jest --findRelatedTests"
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
+    "test:staged": "jest --findRelatedTests",
+    "predeploy": "npm run storybook:build",
+    "deploy": "gh-pages -d storybook-static"
   },
   "husky": {
     "hooks": {
