@@ -4,5 +4,6 @@ module.exports = {
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
+  printWidth: 70,
   // Override any other rules you want
 }

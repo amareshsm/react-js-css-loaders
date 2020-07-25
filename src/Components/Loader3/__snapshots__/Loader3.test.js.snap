@@ -6,13 +6,13 @@ Array [
     [object Object]
   </style>,
   <div
-    class="loader-div three"
+    className="loader-div three"
   >
     <div
-      class="loader3"
+      className="loader3"
     >
       <div
-        class="loader-ring"
+        className="loader-ring"
       >
         <div />
         <div />
