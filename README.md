@@ -3,7 +3,7 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
 [![1.0](https://badge.fury.io/js/survey-monkey-streams.svg)](//npmjs.com/package/react-js-css-loaders)
 
-# react-js-css-Loaders
+# react-js-css-loaders
 
 React CSS Loaders
 
@@ -41,17 +41,6 @@ export default LoaderComponent
 
 ### Other modular samples available under `/examples` : ###
 
-Markup : <details>
-           <summary>create-react-app</summary>
-           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [create-react-app demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cra)</p>
-         </details>
-
-Markup : <details>
-           <summary>server side rendering</summary>
-           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [ssr demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/ssr)</p>
-         </details>
-         
-Markup : <details>
-           <summary>Universal Module Definition (using cdn)</summary>
-           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [UMD demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cdn)</p>
-         </details>
+*  [create-react-app demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cra)
+*  [server side rendering demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/ssr) 
+*  [Universal Module Definition (using cdn) demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cdn)
