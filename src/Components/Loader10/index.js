@@ -1,1 +1,1 @@
-export { default as Loader10 } from './Loader'
+export { default as Dewdrops } from './Loader'

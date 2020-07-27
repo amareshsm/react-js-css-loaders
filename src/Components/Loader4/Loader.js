@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader4 = (props) => (
+const Rhythm = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loaders">
@@ -11,4 +11,4 @@ const Loader4 = (props) => (
   </>
 )
 
-export default Loader4
+export default Rhythm

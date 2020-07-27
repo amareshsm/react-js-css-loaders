@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader13 = (props) => (
+const Whirl = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div thirteen">
@@ -18,4 +18,4 @@ const Loader13 = (props) => (
   </>
 )
 
-export default Loader13
+export default Whirl

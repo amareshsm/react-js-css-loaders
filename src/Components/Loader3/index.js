@@ -1,1 +1,1 @@
-export { default as Loader3 } from './Loader'
+export { default as Chaser } from './Loader'

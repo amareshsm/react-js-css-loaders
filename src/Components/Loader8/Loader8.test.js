@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader8 } from '.'
+import { Square } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader8 />).toJSON()
+  const tree = renderer.create(<Square />).toJSON()
   expect(tree).toMatchSnapshot()
 })

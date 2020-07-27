@@ -1,1 +1,1 @@
-export { default as Loader5 } from './Loader'
+export { default as Elipsis } from './Loader'

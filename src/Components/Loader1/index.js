@@ -1,1 +1,1 @@
-export { default as Loader1 } from './Loader'
+export { default as Moon } from './Loader'

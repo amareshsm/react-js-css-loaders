@@ -1,1 +1,1 @@
-export { default as Loader12 } from './Loader'
+export { default as Easeinout } from './Loader'

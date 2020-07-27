@@ -7,6 +7,6 @@
     "serve": "^11.3.2"
   },
   "dependencies": {
-    "react-spinner-css": "file:../.."
+    "react-js-css-loaders": "file:../.."
   }
 }

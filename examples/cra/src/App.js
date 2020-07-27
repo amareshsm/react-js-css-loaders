@@ -1,8 +1,8 @@
 import React from 'react'
-import { Loader1 } from 'react-spinner-css'
+import { Moon } from 'react-js-css-loaders'
 
 function App() {
-  return <Loader1 />
+  return <Moon />
 }
 
 export default App

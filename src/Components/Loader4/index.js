@@ -1,1 +1,1 @@
-export { default as Loader4 } from './Loader'
+export { default as Rhythm } from './Loader'

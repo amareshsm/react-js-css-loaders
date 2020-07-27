@@ -1,1 +1,1 @@
-export { default as Loader7 } from './Loader'
+export { default as Revolution } from './Loader'

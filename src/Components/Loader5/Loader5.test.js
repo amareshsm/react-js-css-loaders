@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader5 } from '../Loader5'
+import { Elipsis } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader5 />).toJSON()
+  const tree = renderer.create(<Elipsis />).toJSON()
   expect(tree).toMatchSnapshot()
 })

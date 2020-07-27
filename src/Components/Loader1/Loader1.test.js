@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader1 } from '../Loader1'
+import { Moon } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader1 />).toJSON()
+  const tree = renderer.create(<Moon />).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader12 } from '.'
+import { Easeinout } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader12 />).toJSON()
+  const tree = renderer.create(<Easeinout />).toJSON()
   expect(tree).toMatchSnapshot()
 })

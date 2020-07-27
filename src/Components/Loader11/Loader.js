@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader11 = (props) => (
+const Spinner = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div eleven">
@@ -9,4 +9,4 @@ const Loader11 = (props) => (
   </>
 )
 
-export default Loader11
+export default Spinner

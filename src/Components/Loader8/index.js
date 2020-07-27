@@ -1,1 +1,1 @@
-export { default as Loader8 } from './Loader'
+export { default as Square } from './Loader'

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.css'
 
-const Loader2 = (props) => (
+const Revolver = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div two">
@@ -17,4 +17,4 @@ const Loader2 = (props) => (
   </>
 )
 
-export default Loader2
+export default Revolver

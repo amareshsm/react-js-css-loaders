@@ -1,1 +1,1 @@
-export { default as Loader6 } from './Loader'
+export { default as Throbber } from './Loader'

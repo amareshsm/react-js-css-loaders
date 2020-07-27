@@ -1,12 +1,12 @@
 const React = require('react')
 const express = require('express')
-const { Loader3 } = require('react-spinner-css')
+const { Moon } = require('react-js-css-loaders')
 const ReactDOM = require('react-dom/server')
 const app = express()
 const port = 3000
 
 app.get('*', (req, res) => {
-  const el = React.createElement(Loader3)
+  const el = React.createElement(Moon)
   const html = ReactDOM.renderToString(el)
   res.send(`<!DOCTYPE html>
     <html lang="en">

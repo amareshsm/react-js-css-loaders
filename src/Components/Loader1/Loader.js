@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader1 = (props) => (
+const Moon = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div one">
@@ -9,4 +9,4 @@ const Loader1 = (props) => (
   </>
 )
 
-export default Loader1
+export default Moon

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader9 = (props) => (
+const Cardfliping = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div nine">
@@ -9,4 +9,4 @@ const Loader9 = (props) => (
   </>
 )
 
-export default Loader9
+export default Cardfliping

@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader3 } from '../Loader3'
+import { Chaser } from '../Loader3'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader3 />).toJSON()
+  const tree = renderer.create(<Chaser />).toJSON()
   expect(tree).toMatchSnapshot()
 })

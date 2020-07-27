@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader6 = (props) => (
+const Throbber = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div six">
@@ -22,4 +22,4 @@ const Loader6 = (props) => (
   </>
 )
 
-export default Loader6
+export default Throbber

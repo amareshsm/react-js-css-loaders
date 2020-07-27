@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader5 = (props) => (
+const Elipsis = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loaders">
@@ -11,4 +11,4 @@ const Loader5 = (props) => (
   </>
 )
 
-export default Loader5
+export default Elipsis

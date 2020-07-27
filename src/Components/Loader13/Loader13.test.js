@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader13 } from '.'
+import { Whirl } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader13 />).toJSON()
+  const tree = renderer.create(<Whirl />).toJSON()
   expect(tree).toMatchSnapshot()
 })

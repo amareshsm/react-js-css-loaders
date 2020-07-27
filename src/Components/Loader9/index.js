@@ -1,1 +1,1 @@
-export { default as Loader9 } from './Loader'
+export { default as Cardfliping } from './Loader'

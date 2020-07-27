@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader11 } from '.'
+import { Spinner } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader11 />).toJSON()
+  const tree = renderer.create(<Spinner />).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader7 } from '.'
+import { Revolution } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader7 />).toJSON()
+  const tree = renderer.create(<Revolution />).toJSON()
   expect(tree).toMatchSnapshot()
 })

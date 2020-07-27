@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader3 = (props) => (
+const Chaser = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div three">
@@ -16,4 +16,4 @@ const Loader3 = (props) => (
   </>
 )
 
-export default Loader3
+export default Chaser

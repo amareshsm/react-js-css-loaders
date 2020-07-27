@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader2 } from '../Loader2'
+import { Revolver } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader2 />).toJSON()
+  const tree = renderer.create(<Revolver />).toJSON()
   expect(tree).toMatchSnapshot()
 })

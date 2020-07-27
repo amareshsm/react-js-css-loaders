@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader10 } from '.'
+import { Dewdrops } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader10 />).toJSON()
+  const tree = renderer.create(<Dewdrops />).toJSON()
   expect(tree).toMatchSnapshot()
 })

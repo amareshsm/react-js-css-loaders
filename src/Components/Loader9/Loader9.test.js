@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Loader9 } from '.'
+import { Cardfliping } from './'
 it('renders correctly', () => {
-  const tree = renderer.create(<Loader9 />).toJSON()
+  const tree = renderer.create(<Cardfliping />).toJSON()
   expect(tree).toMatchSnapshot()
 })

@@ -17,7 +17,7 @@ const outputs = [
     format: 'esm',
   },
   {
-    name: 'ReactSpinnerCSS',
+    name: 'ReactCSSLoaders',
     file: `${dist}/${bundle}.umd.js`,
     globals: {
       react: 'React',

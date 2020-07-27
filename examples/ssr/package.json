@@ -11,6 +11,6 @@
     "express": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-spinner-css": "file:../.."
+    "react-js-css-loaders": "file:../.."
   }
 }

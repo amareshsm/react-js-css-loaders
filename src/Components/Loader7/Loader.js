@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader7 = (props) => (
+const Revolution = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div seven">
@@ -22,4 +22,4 @@ const Loader7 = (props) => (
   </>
 )
 
-export default Loader7
+export default Revolution

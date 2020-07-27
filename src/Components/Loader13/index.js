@@ -1,1 +1,1 @@
-export { default as Loader13 } from './Loader'
+export { default as Whirl } from './Loader'

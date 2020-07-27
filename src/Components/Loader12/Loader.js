@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.css'
-const Loader12 = (props) => (
+const Easeinout = (props) => (
   <>
     <style>{`${styles}`}</style>
     <div className="loader-div twelve">
@@ -12,4 +12,4 @@ const Loader12 = (props) => (
   </>
 )
 
-export default Loader12
+export default Easeinout

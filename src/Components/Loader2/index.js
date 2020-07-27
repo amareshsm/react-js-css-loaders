@@ -1,1 +1,1 @@
-export { default as Loader2 } from './Loader'
+export { default as Revolver } from './Loader'
