@@ -1,6 +1,57 @@
-[![Build Status](https://travis-ci.org/amareshsm/react-spinner-css.svg?branch=master)](https://travis-ci.org/amareshsm/react-spinner-css)
-[![Coverage Status](https://coveralls.io/repos/github/amareshsm/react-spinner-css/badge.svg?branch=master)](https://coveralls.io/github/amareshsm/react-spinner-css?branch=master)
+[![Build Status](https://travis-ci.org/amareshsm/react-js-css-loaders.svg?branch=master)](https://travis-ci.org/amareshsm/react-js-css-loaders) 
+[![Coverage Status](https://coveralls.io/repos/github/amareshsm/react-js-css-loaders/badge.svg?branch=master)](https://coveralls.io/github/amareshsm/react-js-css-loaders?branch=master) 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
+[![1.0](https://badge.fury.io/js/survey-monkey-streams.svg)](//npmjs.com/package/react-js-css-loaders)
 
-# react-CSS-Laoders
+# react-js-css-Loaders
 
 React CSS Loaders
+
+## Quick Start: ##
+
+#### To install package: ####
+
+using npm:
+
+```
+npm i react-js-css-loaders 
+```
+   
+using yarn:
+
+```
+yarn add react-js-css-loaders 
+```   
+  
+### To import Loaders: ###
+
+```
+import {Moon} from 'react-js-css-loaders'
+
+const LoaderComponent = (props) => (
+  <div>
+    <Moon />
+    </div>
+  </div>
+)
+
+export default LoaderComponent
+
+```
+
+### Other modular samples available under `/examples` : ###
+
+Markup : <details>
+           <summary>create-react-app</summary>
+           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [create-react-app demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cra)</p>
+         </details>
+
+Markup : <details>
+           <summary>server side rendering</summary>
+           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [ssr demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/ssr)</p>
+         </details>
+         
+Markup : <details>
+           <summary>Universal Module Definition (using cdn)</summary>
+           <p> &nbsp;&nbsp;&nbsp;&nbsp;    [UMD demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cdn)</p>
+         </details>
