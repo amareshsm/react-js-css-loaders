@@ -1,44 +1,27 @@
-* {
-    padding: 0px;
-    margin: 0px;
+.loader3 {
     box-sizing: border-box;
 }
 
-.loader-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 380px;
-    margin: 8px;
-    border-radius: 4px;
-}
-
-.loader-div.three {
-    background-color: orange;
-}
-
 .loader3 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .loader3 .loader-ring {
     display: inline-block;
     position: relative;
-    width: 95px;
-    height: 95px;
+    width: 80px;
+    height: 80px;
 }
 
 .loader3 .loader-ring div {
     display: block;
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 55px;
+    height: 55px;
     border: 6px solid black;
     border-radius: 50%;
-    border-color: white transparent transparent transparent;
+    border-color: black transparent transparent transparent;
     animation: spin 2s cubic-bezier(0.4, 0, 1, 1) infinite;
 }
 .loader3 .loader-ring div:nth-child(2) {

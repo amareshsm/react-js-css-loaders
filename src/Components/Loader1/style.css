@@ -1,29 +1,10 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-.loader-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 380px;
-    margin: 8px;
-    border-radius: 4px;
-}
-.loader-div.one {
-    background-color: lightyellow;
-}
-
 .loader1 {
-    width: 90px;
-    height: 90px;
-    border-top: 4px solid blue;
+    width: 60px;
+    height: 60px;
+    border-top: 4px solid black;
     border-radius: 100%;
     animation: spin 2s linear infinite;
+    box-sizing: border-box;
 }
 
 @keyframes spin {

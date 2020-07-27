@@ -1,0 +1,43 @@
+.loader12 {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    animation: loader12-anim1 2s ease-in-out infinite;
+}
+
+.dot-1,
+.dot-2 {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    animation: loader12-anim2 2s linear infinite;
+}
+
+.dot-2 {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+}
+
+@keyframes loader12-anim1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader12-anim2 {
+    0%,
+    100% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,29 @@
+.loader10 {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+.circle-1,
+.circle-2 {
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 50%;
+    opacity: 0.6;
+    position: absolute;
+    animation: loader10 2.2s ease-in-out infinite;
+}
+.circle-2 {
+    animation-delay: -1.1s;
+}
+
+@keyframes loader10 {
+    0%,
+    100% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+}

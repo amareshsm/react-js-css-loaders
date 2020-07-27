@@ -5,11 +5,14 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "sideEffects": false,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
-    "format": "eslint **/*.js  && prettier **/*.js",
-    "format:fix": "eslint **/*.js --fix && prettier **/*.js --write",
+    "format": "eslint \"**/*.{js,jsx}\"  && prettier \"**/*.js\"",
+    "format:fix": "eslint \"**/*.js\" --fix && prettier \"**/*.js\" --write",
     "storybook": "start-storybook -p 9001 -c storybook",
     "storybook:build": "build-storybook  -c storybook",
     "test": "jest",
@@ -18,7 +21,8 @@
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "test:staged": "jest --findRelatedTests",
     "predeploy": "npm run storybook:build",
-    "deploy": "gh-pages -d storybook-static"
+    "deploy": "gh-pages -d storybook-static",
+    "prepublishOnly": "npm run build"
   },
   "husky": {
     "hooks": {
@@ -46,7 +50,7 @@
   "bugs": {
     "url": "https://github.com/amareshsm/react-spinner-css/issues"
   },
-  "homepage": "https://github.com/amareshsm/react-spinner-css#readme",
+  "homepage": "https://amareshsm.github.io/react-spinner-css/",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
@@ -57,6 +61,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.1.0",
     "babel-loader": "^8.1.0",
+    "coveralls": "^3.1.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",

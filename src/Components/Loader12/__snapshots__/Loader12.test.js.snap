@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <style>
+    [object Object]
+  </style>,
+  <div
+    className="loader-div twelve"
+  >
+    <div
+      className="loader12"
+    >
+      <div
+        className="dot-1"
+      />
+      <div
+        className="dot-2"
+      />
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,28 @@
+.loader11 {
+    width: 60px;
+    display: flex;
+    height: 60px;
+}
+.loader11::after {
+    display: block;
+    border-radius: 50%;
+    content: "";
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 30px solid black;
+    border-color: black transparent black transparent;
+    animation: loader11 4.2s cubic-bezier(1, 1.01, 0, 0.02) infinite;
+}
+
+@keyframes loader11 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(900deg);
+    }
+    100% {
+        transform: rotate(1800deg);
+    }
+}

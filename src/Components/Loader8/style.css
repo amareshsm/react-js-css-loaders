@@ -1,0 +1,80 @@
+.loader8 {
+    display: flex;
+    width: 85px;
+    position: relative;
+    height: 85px;
+    color: white;
+}
+
+.loader8 div {
+    transform-origin: 45px 45px;
+    animation: loader8 0.9s linear infinite;
+    position: absolute;
+    top: 0px;
+}
+
+.loader8 div::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 29px;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 2%;
+    border: 4px solid black;
+}
+
+.loader8 div:nth-child(1) {
+    animation-delay: -0.8s;
+    left: -30px;
+}
+
+.loader8 div:nth-child(2) {
+    animation-delay: -0.7s;
+    left: 0px;
+}
+.loader8 div:nth-child(3) {
+    animation-delay: -0.6s;
+    left: 30px;
+}
+
+.loader8 div:nth-child(4) {
+    animation-delay: -0.5s;
+    top: 30px;
+    left: 30px;
+}
+.loader8 div:nth-child(5) {
+    animation-delay: -0.4s;
+    top: 60px;
+    left: 30px;
+}
+
+.loader8 div:nth-child(6) {
+    animation-delay: -0.3s;
+    top: 60px;
+    left: 0px;
+}
+
+.loader8 div:nth-child(7) {
+    animation-delay: -0.2s;
+    top: 60px;
+    left: -30px;
+}
+
+.loader8 div:nth-child(8) {
+    animation-delay: -0.1s;
+    left: -30px;
+    top: 30px;
+}
+
+@keyframes loader8 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

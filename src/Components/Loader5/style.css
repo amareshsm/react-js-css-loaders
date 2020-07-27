@@ -1,0 +1,46 @@
+.loaders {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.loader5,
+.loader5::before,
+.loader5::after {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: loader5 1.5s ease-in-out infinite;
+}
+
+.loader5 {
+    transform: translateZ(0);
+    animation-delay: -0.16s;
+    color: black;
+}
+
+.loader5::before,
+.loader5::after {
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+.loader5::before {
+    left: -36px;
+    animation-delay: -0.32s;
+}
+.loader5::after {
+    left: 36px;
+}
+
+@keyframes loader5 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 40px 0 -20px;
+    }
+    40% {
+        box-shadow: 0 40px 0 0;
+    }
+}
