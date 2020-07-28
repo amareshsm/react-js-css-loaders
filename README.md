@@ -31,7 +31,6 @@ import {Moon} from 'react-js-css-loaders'
 const LoaderComponent = (props) => (
   <div>
     <Moon />
-    </div>
   </div>
 )
 
