@@ -1,6 +1,6 @@
 {
   "name": "react-js-css-loaders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React CSS Loaders",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
