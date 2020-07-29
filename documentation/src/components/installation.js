@@ -40,7 +40,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Installation = () => {
   const classes = useStyles()
-  const bull = <span className={classes.bullet}>•</span>
 
   return (
     <Card className={classes.card}>
