@@ -14,7 +14,37 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles, useTheme } from '@material-ui/core/styles'
 import NavItemList from '../NavigationDrawer/NavItems'
-import { Grid } from '@material-ui/core'
+import { Grid, Divider } from '@material-ui/core'
+import {
+  Moon,
+  Revolver,
+  Chaser,
+  Rhythm,
+  Elipsis,
+  Throbber,
+  Revolution,
+  Square,
+  Cardfliping,
+  Dewdrops,
+  Spinner,
+  Easeinout,
+  Whirl,
+} from 'react-js-css-loaders'
+import {
+  MoonLoader,
+  ChaserLoader,
+  RevolverLoader,
+  RhythmLoader,
+  ElipsisLoader,
+  ThrobberLoader,
+  RevolutionLoader,
+  SquareLoader,
+  CardflipingLoader,
+  DewdropsLoader,
+  SpinnerLoader,
+  EaseinoutLoader,
+  WhirlLoader,
+} from './LoadersCode'
 const drawerWidth = 240
 
 const useStyles = makeStyles((theme) => ({
@@ -82,7 +112,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'flex-end',
   },
   highlighter: {
-    borderRadius: 2,
+    borderRadius: 4,
+    width: '50%',
   },
   link: {
     color: '#f65959',
@@ -113,6 +144,43 @@ const useStyles = makeStyles((theme) => ({
   gridItem: {
     maxWidth: '100%',
   },
+  loaderSection: {
+    display: 'flex',
+  },
+  Loader: {
+    display: 'flex',
+    width: '50%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+  },
+  '@media (max-width: 600px) ': {
+    loaderSection: {
+      flexDirection: 'column',
+    },
+    Loader: {
+      width: '100%',
+      height: 230,
+    },
+    highlighter: {
+      width: '100%',
+    },
+    content: {
+      padding: theme.spacing(2),
+    },
+  },
+  '@media (min-width: 601px) and (max-width: 768px)': {
+    loaderSection: {
+      flexDirection: 'column',
+    },
+    Loader: {
+      width: '100%',
+      height: 250,
+    },
+    highlighter: {
+      width: '100%',
+    },
+  },
 }))
 
 const UMD = (props) => {
@@ -120,13 +188,10 @@ const UMD = (props) => {
   const classes = useStyles()
   const theme = useTheme()
   const [mobileOpen, setMobileOpen] = React.useState(false)
-  const code = `<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>`
-  const Note = `react >= 16.2.0 is peer dependencies and node js version should be >=8.`
+
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
-  const reactCode = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>`
 
   const drawer = (
     <div>
@@ -156,7 +221,6 @@ const UMD = (props) => {
         </Toolbar>
       </AppBar>
       <nav className={classes.drawer} aria-label="mailbox folders">
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Hidden smUp implementation="css">
           <Drawer
             container={container}
@@ -200,70 +264,224 @@ const UMD = (props) => {
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.subTitle}>
-                  <b>React js css loaders</b> is available as an
-                  <b> npm package </b>
-                  and also includes <b>cdn</b> support
-                </Typography>
-                <Typography className={classes.title}>npm</Typography>
-                <Typography className={classes.subTitle2}>
-                  To Install react-js-css-loaders source files via
-                  npm.
-                </Typography>
-                <SyntaxHighlighter
-                  className={classes.highlighter}
-                  language="jsx"
-                  style={tomorrow}>
-                  npm install react-js-css-loaders --save
-                </SyntaxHighlighter>
-                <Typography className={classes.subTitle2}>
-                  To Install react-js-css-loaders source files via
-                  yarn.
-                </Typography>
-                <SyntaxHighlighter
-                  className={classes.highlighter}
-                  language="jsx"
-                  style={tomorrow}>
-                  yarn add react-js-css-loaders
-                </SyntaxHighlighter>
-                <Typography className={classes.Note}>
-                  <b> Note:</b> {Note}
-                </Typography>
-                <Typography className={classes.title}>CDN</Typography>
-                <Typography className={classes.subTitle2}>
-                  You can also start using react-js-css-loaders with
-                  minimal infra setup - it requires react CDN and our
-                  package CDN link
-                </Typography>
-                <Typography className={classes.subTitle2}>
-                  Minified and optimized production versions of React
-                  are available at:
-                </Typography>
-                <SyntaxHighlighter
-                  className={classes.highlighter}
-                  language="html"
-                  style={tomorrow}>
-                  {reactCode}
-                </SyntaxHighlighter>
-                <Typography classes={classes.subTitle2}>
-                  To load a specific version of react and react-dom,
-                  replace 16 with the version number.
+                  1. <b>Moon</b>
                 </Typography>
 
-                <Typography className={classes.subTitle2}>
-                  our package CDN link :
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {MoonLoader}
+                  </SyntaxHighlighter>
+                  <div
+                    className={classes.Loader}
+                    style={{ paddingRight: '15px' }}>
+                    <Moon />
+                  </div>
+                </div>
+                <br />
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  2. <b>Revolver</b>
                 </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {RevolverLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Revolver />
+                  </div>
+                </div>
+                <br />
 
-                <SyntaxHighlighter
-                  className={classes.highlighter}
-                  language="html"
-                  style={tomorrow}>
-                  {code}
-                </SyntaxHighlighter>
-
-                <Typography>
-                  <b> Note:</b> Affects performance and bandwidth
-                  utilization.
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  3. <b>Chaser</b>
                 </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {ChaserLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Chaser />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  4. <b>Rhythm</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {RhythmLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Rhythm />
+                  </div>
+                </div>
+                <br />
+                <Divider />
+
+                <Typography className={classes.subTitle}>
+                  5. <b>Elipsis</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {ElipsisLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Elipsis />
+                  </div>
+                </div>
+
+                <br />
+                <Typography className={classes.subTitle}>
+                  6. <b>Throbber</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {ThrobberLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Throbber />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  7. <b>Revolution</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {RevolutionLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Revolution />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  8. <b>Square</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {SquareLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Square />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  9. <b>Cardfliping</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {CardflipingLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Cardfliping />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  10. <b>Dewdrops</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {DewdropsLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Dewdrops />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  11. <b>Spinner</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {SpinnerLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Spinner />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  12. <b>Ease in out</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {EaseinoutLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Easeinout />
+                  </div>
+                </div>
+                <br />
+
+                <Divider />
+                <Typography className={classes.subTitle}>
+                  13. <b>Whirl</b>
+                </Typography>
+                <div className={classes.loaderSection}>
+                  <SyntaxHighlighter
+                    className={classes.highlighter}
+                    language="jsx"
+                    style={tomorrow}>
+                    {WhirlLoader}
+                  </SyntaxHighlighter>
+                  <div className={classes.Loader}>
+                    <Whirl />
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </Grid>

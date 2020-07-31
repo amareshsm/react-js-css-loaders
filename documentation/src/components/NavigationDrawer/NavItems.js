@@ -47,6 +47,14 @@ export default function NavListItem() {
           id="nested-list-subheader"></ListSubheader>
       }
       className={classes.root}>
+      <Link className={classes.Link} underline="none" href="/">
+        <ListItem button key="installation">
+          <ListItemIcon>
+            <i className={'fas fa-home ' + classes.Icon}></i>
+          </ListItemIcon>
+          <ListItemText primary="Home" />
+        </ListItem>
+      </Link>
       <Link
         className={classes.Link}
         underline="none"

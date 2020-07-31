@@ -160,7 +160,7 @@ const useStyles = makeStyles((theme) => ({
     },
     Loader: {
       width: '100%',
-      height: 250,
+      height: 230,
     },
     highlighter: {
       width: '100%',
