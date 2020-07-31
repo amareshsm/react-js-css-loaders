@@ -10,19 +10,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.fa-font {
-  font-size: 8em;
-  margin: 10px;
-}
-.big-text {
-  font-size: 6rem;
-}
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.title-text {
-  display: flex;
-  flex-direction: column;
+a {
+  text-decoration: none;
 }
