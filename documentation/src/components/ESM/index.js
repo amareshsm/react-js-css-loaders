@@ -216,7 +216,7 @@ const ESM = (props) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Installation
+            ESM
           </Typography>
         </Toolbar>
       </AppBar>

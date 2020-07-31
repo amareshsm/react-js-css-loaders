@@ -216,7 +216,7 @@ const UMD = (props) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Installation
+            UMD
           </Typography>
         </Toolbar>
       </AppBar>

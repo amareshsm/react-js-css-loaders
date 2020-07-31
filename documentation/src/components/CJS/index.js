@@ -216,7 +216,7 @@ const CJS = (props) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Installation
+            CJS
           </Typography>
         </Toolbar>
       </AppBar>
