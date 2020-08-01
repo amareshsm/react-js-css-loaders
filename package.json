@@ -21,7 +21,7 @@
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "test:staged": "jest --findRelatedTests",
     "predeploy": "npm run storybook:build",
-    "deploy": "gh-pages -d storybook-static",
+    "deploy": "gh-pages -d build",
     "prepublishOnly": "npm run build"
   },
   "husky": {
