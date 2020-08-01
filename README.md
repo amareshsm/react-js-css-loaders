@@ -38,6 +38,10 @@ export default LoaderComponent
 
 ```
 
+## Documentation: ##
+
+Check out our [documentation](https://docs-react-js-css-loaders.netlify.app/) website
+
 ### Other modular samples available under `/examples` : ###
 
 *  [create-react-app demo](https://github.com/amareshsm/react-js-css-loaders/tree/master/examples/cra)
