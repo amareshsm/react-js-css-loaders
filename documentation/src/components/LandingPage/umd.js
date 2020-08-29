@@ -61,7 +61,7 @@ const UMD = () => {
   const classes = useStyles()
   const code = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Moon } = window.ReactCSSLoaders;
     const container = document.getElementById('container')

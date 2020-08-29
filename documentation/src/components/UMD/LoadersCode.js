@@ -1,6 +1,6 @@
 export const MoonLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Moon } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -9,7 +9,7 @@ export const MoonLoader = `<script crossorigin src="https://unpkg.com/react@16/u
 
 export const RevolverLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Revolver } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -18,7 +18,7 @@ export const RevolverLoader = `<script crossorigin src="https://unpkg.com/react@
 
 export const ChaserLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Chaser } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -27,7 +27,7 @@ export const ChaserLoader = `<script crossorigin src="https://unpkg.com/react@16
 
 export const RhythmLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Rhythm } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -36,7 +36,7 @@ export const RhythmLoader = `<script crossorigin src="https://unpkg.com/react@16
 
 export const ElipsisLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Elipsis } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -45,7 +45,7 @@ export const ElipsisLoader = `<script crossorigin src="https://unpkg.com/react@1
 
 export const ThrobberLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Throbber } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -54,7 +54,7 @@ export const ThrobberLoader = `<script crossorigin src="https://unpkg.com/react@
 
 export const RevolutionLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Revolution } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -63,7 +63,7 @@ export const RevolutionLoader = `<script crossorigin src="https://unpkg.com/reac
 
 export const SquareLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Square } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -72,7 +72,7 @@ export const SquareLoader = `<script crossorigin src="https://unpkg.com/react@16
 
 export const CardflipingLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Cardfliping } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -81,7 +81,7 @@ export const CardflipingLoader = `<script crossorigin src="https://unpkg.com/rea
 
 export const DewdropsLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Dewdrops } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -90,7 +90,7 @@ export const DewdropsLoader = `<script crossorigin src="https://unpkg.com/react@
 
 export const SpinnerLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Spinner } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -99,7 +99,7 @@ export const SpinnerLoader = `<script crossorigin src="https://unpkg.com/react@1
 
 export const WhirlLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Whirl } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
@@ -108,7 +108,7 @@ export const WhirlLoader = `<script crossorigin src="https://unpkg.com/react@16/
 
 export const EaseinoutLoader = `<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/browse/react-js-css-loaders@latest/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/react-js-css-loaders@1.0.6/dist/bundle.umd.js"></script>
 <script>
     const { Easeinout } = window.ReactCSSLoaders;
     const container = document.getElementById('container')
