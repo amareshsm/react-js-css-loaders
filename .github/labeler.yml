@@ -1,2 +1,2 @@
 documentation:
-  - all: ["documentation/**/*"]
+  - all: ["documentation", "documentation/**"]
