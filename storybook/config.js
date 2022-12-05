@@ -8,7 +8,7 @@ function loadStories() {
 
 addDecorator(
   withOptions({
-    name: 'React CSS Loaders',
+    name: 'React CSS Loaders!',
     url: packageJson.repository.url,
     showAddonsPanel: false,
   }),
