@@ -1,5 +1,2 @@
 documentation:
   - documentation/**/*
-code+documentation:
-  - documentation/**/*
-  - src/**/*
