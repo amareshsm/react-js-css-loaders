@@ -85,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
     },
     packageIconGithub: {
       fontSize: '2.3rem',
-      margin: '2.5px 10px',
+      margin: '3px 10px',
     },
     packageIconNpm: {
       fontSize: '2.3rem',
