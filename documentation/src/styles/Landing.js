@@ -132,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
     },
     packageIconNpm: {
       fontSize: '2.6rem',
-      margin: '2.5px 10px',
+      margin: '3px 10px',
       color: 'red',
     },
   },
